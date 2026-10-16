@@ -1,0 +1,17 @@
+export type DateBlock = { from: string; to: string };
+export type Media = { id: string; url: string; filename: string; mime: string; size: number; alt: string; caption: string; createdAt: string };
+export type ImageOverride = { mediaId: string; alt: string; position: string };
+export type CmsRoom = { id: string; name: string; image: string; description: string; overview: string; caption: string; guests: number; beds: string; bedDetail: string; features: string[]; rate: number | null; enabled: boolean; bookingOpen: boolean; blockedDates: DateBlock[]; imageMediaId: string };
+export type CmsPackage = { id: string; name: string; category: "tour" | "stay-tour"; photo: string; description: string; concept: string; itinerary: { title: string; description: string }[]; price: number | null; duration: string; includes: string[]; excludes: string[]; enabled: boolean; bookingOpen: boolean; blockedDates: DateBlock[]; imageMediaId: string };
+export type CmsDish = { id: string; category: string; name: string; description: string; price: number | null; serving: string; dietary: string; enabled: boolean; imageMediaId: string };
+export type CmsFAQ = { id: string; category: string; question: string; answer: string; href?: string; linkLabel?: string; enabled: boolean };
+export type CmsGallery = { id: string; category: "Rooms" | "Dining" | "Spaces" | "Varanasi"; source: "about" | "rooms" | "restaurant" | "travel" | "experience"; photo: string; title: string; alt: string; href: string; link: string; mediaId: string; enabled: boolean };
+export type CmsSettings = { name: string; tagline: string; email: string; phone: string; whatsapp: string; address: string; mapUrl: string; accentColor: string; backgroundColor: string; logoMediaId: string; bookingsOpen: boolean; staysOpen: boolean; diningOpen: boolean; experiencesOpen: boolean; closedMessage: string; currency: string };
+export type CmsState = { revision: number; updatedAt: string; settings: CmsSettings; content: Record<string,string>; images: Record<string,ImageOverride>; media: Media[]; rooms: CmsRoom[]; packages: CmsPackage[]; menu: CmsDish[]; faqs: CmsFAQ[]; gallery: CmsGallery[] };
+export type ContentField = { id: string; source: string; label: string; defaultValue: string };
+export type ImageSlot = { id: string; label: string; source: string; src: string; crop?: [number,number,number,number] };
+export type CmsManifest = { contentFields: ContentField[]; imageSlots: ImageSlot[] };
+export type BookingInput = { type: "stay" | "dining" | "experience" | "general"; itemId?: string; name: string; contact: string; method: "Email" | "Phone" | "WhatsApp"; date?: string; endDate?: string; time?: string; guests?: number; rooms?: number; message: string; consent: boolean; website?: string; requestId: string };
+export type BookingStatus = "new" | "contacted" | "confirmed" | "cancelled" | "completed";
+export type Booking = BookingInput & { id: string; reference: string; status: BookingStatus; notes: string; createdAt: string; updatedAt: string };
+export type Session = { authenticated: boolean; username?: string; csrfToken?: string };

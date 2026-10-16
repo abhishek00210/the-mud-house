@@ -1,0 +1,19 @@
+# Local machine files and previous source archives
+.DS_Store
+/The-Mud-House-React*.zip
+
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+*.log
+
+# Private application data, credentials, and local tool state
+.data/
+.env*
+*.pem
+*.key
+.openai/
+.sites-runtime/
+.agents/
+.codex/

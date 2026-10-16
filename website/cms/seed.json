@@ -1,0 +1,711 @@
+{
+  "revision": 1,
+  "updatedAt": "2026-10-04T13:06:57.472Z",
+  "settings": {
+    "name": "The Mud House",
+    "tagline": "VARANASI",
+    "email": "hello@themudhouse.in",
+    "phone": "",
+    "whatsapp": "",
+    "address": "Varanasi, Uttar Pradesh, India · Exact address to confirm",
+    "mapUrl": "",
+    "accentColor": "#581b15",
+    "backgroundColor": "#f8f5f0",
+    "logoMediaId": "",
+    "bookingsOpen": true,
+    "staysOpen": true,
+    "diningOpen": true,
+    "experiencesOpen": true,
+    "closedMessage": "Online booking requests are currently paused. Please contact the team for assistance.",
+    "currency": "INR"
+  },
+  "content": {},
+  "images": {},
+  "media": [],
+  "rooms": [
+    {
+      "id": "deluxe-room",
+      "name": "Deluxe Room",
+      "image": "deluxe",
+      "description": "A comfortable and stylish room with thoughtful amenities for a relaxing and rejuvenating stay.",
+      "overview": "The Deluxe Room offers a calm and comfortable space to unwind after a day of exploring Varanasi. Warm, earthy tones and thoughtful details bring together everyday comforts and a sense of place for a relaxed stay.",
+      "caption": "A cosy and elegant space for a relaxing getaway.",
+      "guests": 2,
+      "beds": "King / Queen",
+      "bedDetail": "Bed",
+      "features": [
+        "AC",
+        "Ensuite bathroom",
+        "Wi-Fi",
+        "Tea/Coffee maker",
+        "Wardrobe",
+        "Work desk"
+      ],
+      "rate": null,
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    },
+    {
+      "id": "premium-room",
+      "name": "Premium Room",
+      "image": "premium",
+      "description": "A larger room with extra space, ideal for families, couples or travellers who enjoy a little more.",
+      "overview": "The Premium Room brings a more spacious feel to your stay, with room to sit, read and unwind. Suitable for couples or a small family, it offers a comfortable setting for unhurried mornings and quiet evenings after exploring the city.",
+      "caption": "Spacious comfort with a touch of luxury.",
+      "guests": 3,
+      "beds": "King Bed",
+      "bedDetail": "or Twin Beds",
+      "features": [
+        "AC",
+        "Ensuite bathroom",
+        "Wi-Fi",
+        "Mini fridge",
+        "Seating area",
+        "Work desk"
+      ],
+      "rate": null,
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    },
+    {
+      "id": "family-room",
+      "name": "Family Room",
+      "image": "family",
+      "description": "A versatile room perfect for families, with comfortable space for everyone to relax, reconnect and feel at home.",
+      "overview": "The Family Room is designed around time together, with sleeping arrangements for up to four guests and a place to relax between outings. Let us know the ages of your children and your preferred bed setup so our team can help plan a comfortable stay.",
+      "caption": "Room for everyone, and memories that last.",
+      "guests": 4,
+      "beds": "2 Queen Beds",
+      "bedDetail": "or 1 King + 2 Singles",
+      "features": [
+        "AC",
+        "Ensuite bathroom",
+        "Wi-Fi",
+        "Extra bedding (on request)",
+        "Seating area"
+      ],
+      "rate": null,
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    },
+    {
+      "id": "dormitory-room",
+      "name": "Dormitory Room",
+      "image": "dormitory",
+      "description": "A comfortable and affordable option, ideal for groups or budget travellers. Share the vibe, make new friends, and experience more together.",
+      "overview": "Our shared dormitory offers individual bunk beds for solo travellers, friends and groups. Enquire by the number of beds you need, and tell us about your group so the team can confirm availability, room arrangements and the facilities for your stay.",
+      "caption": "Concept image · Shared dormitory room with multiple bunk beds.",
+      "guests": 1,
+      "beds": "Bunk Bed Style",
+      "bedDetail": "Two-tier",
+      "features": [
+        "AC",
+        "Multiple bunk beds",
+        "Bathroom access",
+        "Lockers (unconfirmed)",
+        "Wi-Fi"
+      ],
+      "rate": null,
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    }
+  ],
+  "packages": [
+    {
+      "id": "sunrise-on-the-ganga",
+      "name": "Sunrise on the Ganga",
+      "category": "tour",
+      "photo": "sunrise",
+      "description": "Experience outline awaiting confirmation.",
+      "concept": "A concept for a quiet morning by the Ganga, taking in the changing light and the life of the riverfront. The route, boat arrangements and timings are awaiting confirmation.",
+      "itinerary": [
+        {
+          "title": "Plan your morning",
+          "description": "Share your preferred date, traveller count and any access needs. The team will confirm whether this experience can be arranged."
+        },
+        {
+          "title": "Explore the riverfront",
+          "description": "The concept centres on the Ganga at sunrise. Any boat trip, meeting point, route and guiding arrangements must be confirmed before booking."
+        },
+        {
+          "title": "Confirm the details",
+          "description": "Ask for the proposed duration, transport, inclusions, exclusions and a quote for your dates before making plans."
+        }
+      ],
+      "price": null,
+      "duration": "To confirm",
+      "includes": [],
+      "excludes": [],
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    },
+    {
+      "id": "varanasi-heritage-walk",
+      "name": "Varanasi Heritage Walk",
+      "category": "tour",
+      "photo": "heritage",
+      "description": "Experience outline awaiting confirmation.",
+      "concept": "A concept for discovering Kashi through its old lanes and everyday stories. Specific stops, guide arrangements, walking distance and access details are awaiting confirmation.",
+      "itinerary": [
+        {
+          "title": "Share what interests you",
+          "description": "Tell us about your interests, preferred pace and any walking or access requirements so the team can discuss a suitable plan."
+        },
+        {
+          "title": "Discover the lanes of Kashi",
+          "description": "This concept explores the city's living heritage. The route, stops, guide and any entry arrangements will be proposed for your review."
+        },
+        {
+          "title": "Review your arrangements",
+          "description": "Confirm the meeting point, duration, group format, inclusions and quote with the team before booking."
+        }
+      ],
+      "price": null,
+      "duration": "To confirm",
+      "includes": [],
+      "excludes": [],
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    },
+    {
+      "id": "stay-explore-kashi",
+      "name": "Stay & Explore Kashi",
+      "category": "stay-tour",
+      "photo": "stay",
+      "description": "Experience outline awaiting confirmation.",
+      "concept": "A concept combining time at The Mud House with experiences in Varanasi. Accommodation, length of stay, outings and package inclusions are subject to a confirmed proposal.",
+      "itinerary": [
+        {
+          "title": "Find a stay that fits",
+          "description": "Share your dates, number of travellers and room preferences. Room category and availability will be confirmed by the team."
+        },
+        {
+          "title": "Make space to discover Kashi",
+          "description": "Tell us which local experiences appeal to you. The team can discuss a proposed plan that suits your pace and interests."
+        },
+        {
+          "title": "Confirm your package",
+          "description": "Review the proposed accommodation, experiences, meals, transfers, exclusions and total quote before confirming your booking."
+        }
+      ],
+      "price": null,
+      "duration": "To confirm",
+      "includes": [],
+      "excludes": [],
+      "enabled": true,
+      "bookingOpen": true,
+      "blockedDates": [],
+      "imageMediaId": ""
+    }
+  ],
+  "menu": [
+    {
+      "id": "paneer-tikka",
+      "name": "Paneer Tikka (Style to confirm)",
+      "description": "Marinated cottage cheese, grilled to perfection (serving style to confirm).",
+      "category": "starters",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "seasonal-vegetable-tikka",
+      "name": "Seasonal Vegetable Tikka",
+      "description": "Selection of seasonal vegetables, marinated and grilled (style to confirm).",
+      "category": "starters",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "soup-of-the-day",
+      "name": "Soup of the Day",
+      "description": "Freshly prepared soup with seasonal ingredients (recipe to confirm).",
+      "category": "starters",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "seasonal-vegetable-curry",
+      "name": "Seasonal Vegetable Curry",
+      "description": "A flavourful curry made with seasonal vegetables (recipe to confirm).",
+      "category": "main-course",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "paneer-butter-masala",
+      "name": "Paneer Butter Masala (Style to confirm)",
+      "description": "Classic preparation with rich, aromatic gravy (style to confirm).",
+      "category": "main-course",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "dal-of-the-day",
+      "name": "Dal of the Day",
+      "description": "A traditional lentil preparation (recipe to confirm).",
+      "category": "main-course",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "house-flatbread",
+      "name": "House Flatbread",
+      "description": "Freshly baked bread (varieties to confirm).",
+      "category": "breads-rice",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "saffron-rice",
+      "name": "Saffron Rice",
+      "description": "Fragrant basmati rice with subtle saffron (recipe to confirm).",
+      "category": "breads-rice",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "something-sweet",
+      "name": "A Taste of Something Sweet",
+      "description": "A traditional dessert (variety to confirm).",
+      "category": "desserts",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "seasonal-dessert",
+      "name": "Seasonal Dessert",
+      "description": "Chef’s special sweet (details to confirm).",
+      "category": "desserts",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "description": "Aromatic spiced tea (recipe to confirm).",
+      "category": "beverages",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    },
+    {
+      "id": "fresh-lime-soda",
+      "name": "Fresh Lime Soda",
+      "description": "Refreshing beverage (variety to confirm).",
+      "category": "beverages",
+      "price": null,
+      "serving": "To confirm",
+      "dietary": "Please ask the team",
+      "enabled": true,
+      "imageMediaId": ""
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a dormitory room available at The Mud House?",
+      "answer": "Our room selection includes a shared dormitory with multiple bunk beds, air conditioning and bathroom access. It’s an option for groups or budget travellers. Please enquire for bed availability and group stays.",
+      "id": "dormitory",
+      "category": "stay",
+      "href": "/rooms/dormitory-room",
+      "linkLabel": "Explore the dormitory",
+      "enabled": true
+    },
+    {
+      "question": "Are all rooms air-conditioned?",
+      "answer": "Air conditioning is listed for each room category. Our team can confirm the facilities in your allocated room before you book.",
+      "id": "air-conditioning",
+      "category": "stay",
+      "href": "/rooms",
+      "linkLabel": "Explore our rooms",
+      "enabled": true
+    },
+    {
+      "question": "Is breakfast included in the room rate?",
+      "answer": "Breakfast inclusion is not yet confirmed and may depend on your room and rate plan. Please check what is included when requesting your quote.",
+      "id": "breakfast",
+      "category": "stay",
+      "href": "/rooms",
+      "linkLabel": "Explore our rooms",
+      "enabled": true
+    },
+    {
+      "question": "Can I book multiple rooms for a group?",
+      "answer": "Yes, you can enquire about several rooms together. Share your dates, guest count and preferred room types, and our team will help you explore the available options.",
+      "id": "group-rooms",
+      "category": "stay",
+      "href": "/rooms",
+      "linkLabel": "Explore our rooms",
+      "enabled": true
+    },
+    {
+      "question": "Do you offer long-stay discounts?",
+      "answer": "Ask our team for a quote based on your dates and length of stay. Any extended-stay rates are subject to availability and confirmation.",
+      "id": "long-stays",
+      "category": "stay",
+      "href": "/rooms",
+      "linkLabel": "Explore our rooms",
+      "enabled": true
+    },
+    {
+      "id": "children-extra-beds",
+      "category": "stay",
+      "question": "Can children stay, and can an extra bed be arranged?",
+      "answer": "Share the number and ages of children, your room preference and any extra bedding needs when you enquire. Extra beds depend on room type and availability. Sleeping arrangements and any additional charges need to be confirmed with your quote.",
+      "href": "/rooms/family-room",
+      "linkLabel": "Explore the Family Room",
+      "enabled": true
+    },
+    {
+      "id": "pet-policy",
+      "category": "stay",
+      "question": "Can I bring a pet?",
+      "answer": "Please contact the team to confirm the current pet policy before booking. The policy and any arrangements are awaiting confirmation.",
+      "href": "/contact?topic=stay",
+      "linkLabel": "Ask about your stay",
+      "enabled": true
+    },
+    {
+      "question": "Can I dine without staying at the hotel?",
+      "answer": "Our non-resident dining policy is awaiting confirmation. Please contact the team before planning a visit.",
+      "id": "non-resident-dining",
+      "category": "dining",
+      "href": "/restaurant#table-request",
+      "linkLabel": "Plan your meal",
+      "enabled": true
+    },
+    {
+      "question": "What cuisine is served?",
+      "answer": "Our cuisine and menu approach are still to be confirmed. Browse the food concepts on the Food Menu page, then ask the team for the current menu and available dishes.",
+      "id": "cuisine",
+      "category": "dining",
+      "href": "/food-menu",
+      "linkLabel": "Browse the food menu",
+      "enabled": true
+    },
+    {
+      "question": "What are the restaurant’s service hours?",
+      "answer": "Service hours, operating days and last orders are awaiting confirmation. Include your preferred date and time in a table request and the team will advise.",
+      "id": "service-hours",
+      "category": "dining",
+      "href": "/restaurant#table-request",
+      "linkLabel": "Plan your meal",
+      "enabled": true
+    },
+    {
+      "question": "How do table requests work?",
+      "answer": "Share your preferred date, time and guest count, review your details, and send your request to our team. A reference number confirms that it was received. Your table is reserved only when the team confirms availability with you.",
+      "id": "table-requests",
+      "category": "dining",
+      "href": "/restaurant#table-request",
+      "linkLabel": "Plan your meal",
+      "enabled": true
+    },
+    {
+      "question": "How can I discuss dietary or access requirements?",
+      "answer": "Add your dietary, access or seating needs to the request form. Please confirm ingredients, allergens and access arrangements directly with the team before your visit; accommodations are subject to confirmation.",
+      "id": "dietary-needs",
+      "category": "dining",
+      "href": "/restaurant#table-request",
+      "linkLabel": "Plan your meal",
+      "enabled": true
+    },
+    {
+      "question": "Is accommodation included in every package?",
+      "answer": "Not necessarily. Some experiences include a stay, while others are day experiences only. Details are subject to confirmation for each package.",
+      "id": "package-accommodation",
+      "category": "experiences",
+      "href": "/travel-packages#travel-enquiry",
+      "linkLabel": "Plan an experience",
+      "enabled": true
+    },
+    {
+      "question": "What does the displayed price cover?",
+      "answer": "Prices are currently awaiting confirmation. Request a quote for your dates and group, and ask the team to confirm the full price, inclusions, exclusions, taxes and any additional charges.",
+      "id": "package-pricing",
+      "category": "experiences",
+      "href": "/travel-packages#travel-enquiry",
+      "linkLabel": "Plan an experience",
+      "enabled": true
+    },
+    {
+      "question": "Are experiences private or shared?",
+      "answer": "The arrangement for each experience is awaiting confirmation. Share your group size and preference for a private or shared experience in your enquiry.",
+      "id": "private-or-shared",
+      "category": "experiences",
+      "href": "/travel-packages#travel-enquiry",
+      "linkLabel": "Plan an experience",
+      "enabled": true
+    },
+    {
+      "question": "How do I discuss access or group requirements?",
+      "answer": "Add any walking, access, timing or group requirements to the travel enquiry form. Please confirm the route, transport and suitability with the team before booking.",
+      "id": "experience-requirements",
+      "category": "experiences",
+      "href": "/travel-packages#travel-enquiry",
+      "linkLabel": "Plan an experience",
+      "enabled": true
+    },
+    {
+      "id": "arrival-departure-times",
+      "category": "arrival",
+      "question": "What are the check-in and check-out times?",
+      "answer": "Arrival and departure times are unconfirmed. Please ask the team before travelling. Include any early arrival or late departure request in your enquiry so the available arrangements can be discussed.",
+      "href": "/contact?topic=arrival",
+      "linkLabel": "Discuss your arrival",
+      "enabled": true
+    },
+    {
+      "id": "directions-transfers",
+      "category": "arrival",
+      "question": "How do I reach the hotel, and can you help with transfers?",
+      "answer": "Contact the team for the confirmed address, airport and railway station guidance, and local transport options. Transfer availability, pickup arrangements and charges need to be confirmed before you travel.",
+      "href": "/contact?topic=arrival",
+      "linkLabel": "Ask for arrival guidance",
+      "enabled": true
+    },
+    {
+      "id": "room-access",
+      "category": "arrival",
+      "question": "How can I check whether the hotel meets my access needs?",
+      "answer": "Tell the team about any access or assistance requirements before booking. Ask them to confirm the floor level, lift or steps, door widths, bathroom arrangement and route to the room offered. Verified room dimensions and floor plans are not currently available on the website.",
+      "href": "/contact?topic=accessibility",
+      "linkLabel": "Discuss access requirements",
+      "enabled": true
+    },
+    {
+      "id": "availability-rates",
+      "category": "enquiries",
+      "question": "How do I check room availability and rates?",
+      "answer": "Choose your dates, guest count and room preference, then prepare an enquiry for the team. The website does not show live availability or confirmed rates. The team will need to confirm availability, the proposed room and a quote for your dates.",
+      "href": "/rooms#availability",
+      "linkLabel": "Enquire about a room",
+      "enabled": true
+    },
+    {
+      "question": "When is my booking confirmed?",
+      "answer": "An enquiry is not a confirmed booking. The team will confirm availability, your proposed arrangements, the quote and any booking conditions with you before a booking can be confirmed.",
+      "id": "booking-confirmation",
+      "category": "enquiries",
+      "href": "/contact?topic=booking",
+      "linkLabel": "Talk to the team",
+      "enabled": true
+    },
+    {
+      "id": "sending-an-enquiry",
+      "category": "enquiries",
+      "question": "Does submitting a website form send my enquiry automatically?",
+      "answer": "Review your details, accept the privacy notice, and select Send request to send your enquiry to our team. A reference number confirms that it was received. Our team will contact you about availability and arrangements; the request itself is not a confirmed booking. If sending fails, you can try again or use the email option.",
+      "href": "/contact",
+      "linkLabel": "Prepare an enquiry",
+      "enabled": true
+    },
+    {
+      "id": "payment-deposits",
+      "category": "enquiries",
+      "question": "How do payments and deposits work?",
+      "answer": "Payment methods, deposit requirements, taxes and any additional charges are to be confirmed with your quote. Terms may vary by room, rate plan or experience. The website does not collect payments.",
+      "href": "/contact?topic=booking",
+      "linkLabel": "Ask about your quote",
+      "enabled": true
+    },
+    {
+      "id": "cancellation-refunds",
+      "category": "enquiries",
+      "question": "What are the cancellation, change and refund terms?",
+      "answer": "Cancellation, booking changes and refund conditions are awaiting confirmation and may vary by rate plan or arrangement. Ask the team for the terms that apply to your quote before confirming a booking; no cancellation deadline, fee or refund entitlement is confirmed on this website.",
+      "href": "/cancellation-refund-policy",
+      "linkLabel": "Read cancellation information",
+      "enabled": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "deluxe",
+      "category": "Rooms",
+      "source": "rooms",
+      "photo": "deluxe",
+      "title": "Room to unwind",
+      "alt": "Deluxe room concept with a wooden bed, warm lighting and a balcony",
+      "href": "/rooms/deluxe-room",
+      "link": "Explore Deluxe Room",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "restaurant",
+      "category": "Dining",
+      "source": "restaurant",
+      "photo": "setting",
+      "title": "Come together",
+      "alt": "Restaurant concept with wooden tables, plants and warm natural finishes",
+      "href": "/restaurant",
+      "link": "Discover dining",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "sunrise",
+      "category": "Varanasi",
+      "source": "travel",
+      "photo": "sunrise",
+      "title": "The river at first light",
+      "alt": "Illustrative scene of a boat silhouetted against sunrise on the Ganga",
+      "href": "/travel-packages/sunrise-on-the-ganga",
+      "link": "Sunrise on the Ganga",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "reception",
+      "category": "Spaces",
+      "source": "about",
+      "photo": "reception",
+      "title": "A quiet corner",
+      "alt": "Shared lounge concept with warm wooden seating and cushions",
+      "href": "/about",
+      "link": "About our spaces",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "table",
+      "category": "Dining",
+      "source": "restaurant",
+      "photo": "table",
+      "title": "Around our table",
+      "alt": "Concept dining table with candles, plates and a vase of greenery",
+      "href": "/restaurant#table-request",
+      "link": "Plan a meal",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "heritage",
+      "category": "Varanasi",
+      "source": "travel",
+      "photo": "heritage",
+      "title": "The lanes of Kashi",
+      "alt": "Illustrative scene of a traveller walking through narrow historic lanes in Kashi",
+      "href": "/travel-packages/varanasi-heritage-walk",
+      "link": "Explore the heritage walk",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "premium",
+      "category": "Rooms",
+      "source": "rooms",
+      "photo": "premium",
+      "title": "A little more space",
+      "alt": "Premium guest room concept with a large bed and warm earthy interiors",
+      "href": "/rooms/premium-room",
+      "link": "Explore Premium Room",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "entrance",
+      "category": "Spaces",
+      "source": "about",
+      "photo": "entrance",
+      "title": "A warm welcome",
+      "alt": "Concept hotel entrance with an arched doorway, lanterns and leafy plants",
+      "href": "/about",
+      "link": "Get to know The Mud House",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "family",
+      "category": "Rooms",
+      "source": "rooms",
+      "photo": "family",
+      "title": "Time together",
+      "alt": "Family room concept with two beds, soft lighting and a balcony",
+      "href": "/rooms/family-room",
+      "link": "Explore Family Room",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "ghats",
+      "category": "Varanasi",
+      "source": "travel",
+      "photo": "hero",
+      "title": "A different rhythm",
+      "alt": "Illustrative scene of boats beside Varanasi's riverfront ghats in warm evening light",
+      "href": "/explore-varanasi",
+      "link": "Get to know Kashi",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "dormitory",
+      "category": "Rooms",
+      "source": "rooms",
+      "photo": "dormitory",
+      "title": "Room for new stories",
+      "alt": "Shared dormitory concept with multiple bunk beds and warm wooden floors",
+      "href": "/rooms/dormitory-room",
+      "link": "Explore Dormitory Room",
+      "mediaId": "",
+      "enabled": true
+    },
+    {
+      "id": "bathroom",
+      "category": "Spaces",
+      "source": "about",
+      "photo": "bathroom",
+      "title": "Thoughtful details",
+      "alt": "Bathroom design concept with a stone basin, mirror and brass fixtures",
+      "href": "/about#practical",
+      "link": "Explore the hotel",
+      "mediaId": "",
+      "enabled": true
+    }
+  ]
+}

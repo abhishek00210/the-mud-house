@@ -1,0 +1,42 @@
+.guest-gallery-hero-collage{display:grid;grid-template-columns:1.08fr 1fr;grid-template-rows:1fr 1fr;gap:10px;height:100%;min-height:355px}
+.guest-gallery-hero-photo{position:relative;overflow:hidden;background:#e3d7c3;margin:0;min-height:0}
+.guest-gallery-hero-photo:first-child{grid-row:1/3}
+.guest-gallery-hero-photo>.guest-photo{width:100%;height:100%;display:block}
+.guest-gallery-hero-photo figcaption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#32271bac);color:#fff1dd;font-size:10px;padding:16px 13px 9px}
+.guest-gallery-section{padding:48px 0 50px;background:#eee8df;scroll-margin-top:22px}
+.guest-gallery-toolbar{display:flex;justify-content:space-between;align-items:flex-end;gap:25px}
+.guest-gallery-filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}
+.guest-gallery-filters button{border:1px solid #cfc1af;background:transparent;padding:11px 18px;font-size:13px;color:#776451;border-radius:2px;min-height:45px;transition:background .18s,color .18s,border-color .18s}
+.guest-gallery-filters button:hover{background:#e4d8c7;border-color:#b49772}
+.guest-gallery-filters button[aria-pressed=true]{background:#581b15;color:#fff7eb;border-color:#581b15}
+.guest-gallery-count{font-size:12px;color:#907b62;margin:23px 0 22px}
+.guest-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 25px;align-items:start}
+.guest-gallery-item{min-width:0;animation:guest-gallery-rise .35s ease both}
+.guest-gallery-photo-button{display:block;position:relative;width:100%;height:252px;overflow:hidden;border:0;padding:0;background:#ded1bc;text-align:left}
+.guest-gallery-photo-button>.guest-photo{width:100%;height:100%;display:block;transition:transform .6s ease}
+.guest-gallery-photo-button:hover>.guest-photo,.guest-gallery-photo-button:focus-visible>.guest-photo{transform:scale(1.035)}
+.guest-gallery-expand{position:absolute;right:12px;bottom:12px;width:33px;height:33px;display:flex;align-items:center;justify-content:center;background:#faf4e8df;color:#714c2b;border:1px solid #fff5;border-radius:2px;opacity:.9;transition:opacity .2s}
+.guest-gallery-expand svg{width:15px;height:15px}
+.guest-gallery-item h3{font-size:28px;letter-spacing:-.6px;line-height:1.2;color:#581b15;margin-top:16px}
+.guest-gallery-item>p{font-size:12px;margin-top:6px;color:#867963}
+.guest-gallery-item>.guest-text-link{font-size:12px;margin-top:13px;line-height:1.5}
+.guest-gallery-caption{margin-top:34px;max-width:830px}
+.guest-gallery-dialog{background:#fcf8f1!important;max-width:1000px!important;width:min(1000px,94vw)!important;max-height:94dvh;overflow-y:auto;padding:30px!important;border:1px solid #d8c8b1!important;gap:12px!important;color:#581b15}
+.guest-gallery-dialog [data-slot=dialog-title]{font:30px/1.2 Georgia,serif;letter-spacing:-.7px;padding-right:26px}
+.guest-gallery-dialog [data-slot=dialog-description]{font:13px/1.45 Arial,sans-serif;color:#807260;padding-right:22px}
+.guest-gallery-dialog-image{height:min(59vh,650px);width:100%;background:#e9dfd0;overflow:hidden;margin-top:4px}
+.guest-gallery-dialog-image>.guest-photo{height:100%;width:100%;display:block}
+.guest-gallery-dialog-controls{display:flex;align-items:center;justify-content:center;gap:24px;margin-top:5px}
+.guest-gallery-dialog-controls button{width:43px;height:43px;border:1px solid #b59a78;background:transparent;color:#76542f;display:flex;justify-content:center;align-items:center;border-radius:2px;transition:background .2s}
+.guest-gallery-dialog-controls button:hover{background:#e9ddc9}
+.guest-gallery-dialog-controls button svg{width:21px;height:21px}
+.guest-gallery-dialog-controls p{color:#735537;text-align:center;min-width:100px;font:18px/1.3 Georgia,serif}
+.guest-gallery-dialog-controls p span{display:block;font:11px/1.4 Arial,sans-serif;color:#967f64;margin-top:3px}
+.guest-gallery-dialog-link{justify-self:center;margin-top:6px;font-size:12px}
+@keyframes guest-gallery-rise{from{opacity:.5;transform:translateY(7px)}to{opacity:1;transform:none}}
+@media(max-width:1100px){.guest-gallery-filters{gap:8px}.guest-gallery-filters button{font-size:12px;padding-inline:14px}.guest-gallery-photo-button{height:215px}.guest-gallery-item h3{font-size:25px}.guest-gallery-hero-collage{min-height:320px}}
+@media(max-width:960px){.guest-gallery-toolbar{display:block}.guest-gallery-filters{margin-top:24px;justify-content:flex-start}.guest-gallery-grid{gap:30px 19px}.guest-gallery-photo-button{height:195px}.guest-gallery-item h3{font-size:24px}.guest-gallery-item>p{font-size:11px}.guest-gallery-hero-collage{min-height:305px;gap:8px}}
+@media(max-width:700px){.guest-gallery-section{padding-block:33px}.guest-gallery-hero-collage{height:280px;min-height:0;gap:7px}.guest-gallery-filters{gap:7px;margin-top:22px}.guest-gallery-filters button{font-size:11px;min-height:41px;padding:10px 13px}.guest-gallery-count{margin:20px 0;font-size:11px}.guest-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 15px}.guest-gallery-photo-button{height:180px}.guest-gallery-item h3{font-size:23px;margin-top:13px;line-height:1.2}.guest-gallery-item>p{font-size:10px;line-height:1.5}.guest-gallery-item>.guest-text-link{font-size:11px;gap:5px;margin-top:10px;align-items:flex-start}.guest-gallery-item>.guest-text-link svg{margin-top:3px;width:13px;height:13px}.guest-gallery-caption{margin-top:28px;font-size:11px}.guest-gallery-dialog{padding:20px!important;gap:11px!important;width:94vw!important}.guest-gallery-dialog [data-slot=dialog-title]{font-size:27px}.guest-gallery-dialog [data-slot=dialog-description]{font-size:11px}.guest-gallery-dialog-image{height:47vh}.guest-gallery-dialog-controls{gap:18px}.guest-gallery-dialog-link{font-size:11px}}
+@media(max-width:450px){.guest-gallery-photo-button{height:150px}.guest-gallery-item h3{font-size:21px}.guest-gallery-grid{column-gap:12px}.guest-gallery-expand{width:27px;height:27px;right:8px;bottom:8px}.guest-gallery-expand svg{width:12px;height:12px}}
+@media(max-width:380px){.guest-gallery-grid{grid-template-columns:1fr}.guest-gallery-photo-button{height:230px}.guest-gallery-item h3{font-size:26px}.guest-gallery-item>p{font-size:11px}.guest-gallery-item>.guest-text-link{font-size:12px}.guest-gallery-hero-collage{height:250px}.guest-gallery-filters{gap:6px}.guest-gallery-filters button{font-size:10px;padding-inline:11px}.guest-gallery-dialog{padding:17px!important}.guest-gallery-dialog [data-slot=dialog-title]{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.guest-gallery-item{animation:none}.guest-gallery-photo-button>.guest-photo,.guest-gallery-filters button,.guest-gallery-dialog-controls button{transition:none}.guest-gallery-photo-button:hover>.guest-photo,.guest-gallery-photo-button:focus-visible>.guest-photo{transform:none}}
